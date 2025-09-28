@@ -1,0 +1,22 @@
+
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+}
+
+.navbar {
+  background-color: inherit; /* Ensure navbar uses inherited background color */
+}
+
+.footer {
+  background-color: inherit; /* Ensure footer uses inherited background color */
+}

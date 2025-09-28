@@ -1,0 +1,75 @@
+/* Dashboard.css */
+
+:root {
+    --background-color: #ffffff; /* Default light theme background */
+    --text-color: #000000; /* Default light theme text color */
+  }
+  
+  .dark-theme {
+    --background-color: #333333; /* Dark theme background */
+    --text-color: #ffffff; /* Dark theme text color */
+  }
+  
+  .dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height of the viewport */
+    background-color: var(--background-color); /* Dynamic background color */
+    color: var(--text-color); /* Dynamic text color */
+  }
+  
+  .dashboard-card {
+    background-color: #f9f9f9; /* Card background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px; /* Fixed width */
+  }
+  
+  /* Update card background for dark theme */
+  .dark-theme .dashboard-card {
+    background-color: #444444; /* Darker card background */
+  }
+  
+  /* Heading style */
+  .dashboard-card h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Paragraph style */
+  .dashboard-card p {
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .go-home-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .go-home-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pop-up message styling */
+  .pop-up-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50; /* Green background for success */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+  }
+  

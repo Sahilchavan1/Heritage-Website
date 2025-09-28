@@ -1,0 +1,330 @@
+[
+    {
+        "name": "Taj Mahal",
+        "location": {
+            "city": "Agra",
+            "state": "Uttar Pradesh"
+        },
+        "category": "Cultural",
+        "description": "A UNESCO World Heritage Site, the Taj Mahal is an ivory-white marble mausoleum on the southern bank of the Yamuna river. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/taj_mahals/taj_mahal.jpg"
+    },
+    {
+        "name": "Agra Fort",
+        "location": {
+            "city": "Agra",
+            "state": "Uttar Pradesh"
+        },
+        "category": "Cultural",
+        "description": "Another UNESCO World Heritage Site in Agra, the Agra Fort is a historical fort and the main residence of the emperors of the Mughal Dynasty. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/agra_fort/agrafort.jpg"
+    },
+    {
+        "name": "Fatehpur Sikri",
+        "location": {
+            "city": "Fatehpur Sikri",
+            "state": "Uttar Pradesh"
+        },
+        "category": "Cultural",
+        "description": "The historic city of Fatehpur Sikri was once the capital of the Mughal Empire and is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/fatehpur_sikri/fatehpur.jpg"
+    },
+    {
+        "name": "Ajanta Caves",
+        "location": {
+            "city": "Aurangabad",
+            "state": "Maharashtra"
+        },
+        "category": "Cultural",
+        "description": "A series of 29 rock-cut caves, the Ajanta Caves are renowned for their Buddhist art and are a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/ajanta_caves/ajantacaves.jpg"
+    },
+    {
+        "name": "Ellora Caves",
+        "location": {
+            "city": "Aurangabad",
+            "state": "Maharashtra"
+        },
+        "category": "Cultural",
+        "description": "The Ellora Caves are an extensive complex of rock-cut monasteries and temples, and are a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/ellora_caves/Ellora_caves.jpg"
+    },
+    {
+        "name": "Sun Temple, Konark",
+        "location": {
+            "city": "Konark",
+            "state": "Odisha"
+        },
+        "category": "Cultural",
+        "description": "The Sun Temple at Konark is a UNESCO World Heritage Site famous for its monumental representation of the chariot of the Sun God. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/KonarkaTemple.jpg"
+    },
+    {
+        "name": "Khajuraho Group of Monuments",
+        "location": {
+            "city": "Khajuraho",
+            "state": "Madhya Pradesh"
+        },
+        "category": "Cultural",
+        "description": "Famous for their erotic sculptures, the Khajuraho Group of Monuments is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/Khajuraho_Group_of_Monuments/Khajuraho_Group_of_Monuments.jpg"
+    },
+    {
+        "name": "Group of Monuments at Hampi",
+        "location": {
+            "city": "Hampi",
+            "state": "Karnataka"
+        },
+        "category": "Cultural",
+        "description": "Hampi is the remains of the last great Hindu kingdom in South India and is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/GroupofMonumentsatHampi/The_elegant_stone_chariot.jpg"
+    },
+    {
+        "name": "Qutb Minar and its Monuments",
+        "location": "Delhi",
+        "category": "Cultural",
+        "description": "The Qutb Minar complex is a UNESCO World Heritage Site and contains the tallest minaret made of bricks. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/QutbMinaranditsMonuments/Qutab_Minar_mausoleum.jpg"
+    },
+    {
+        "name": "Red Fort Complex",
+        "location": "Delhi",
+        "category": "Cultural",
+        "description": "The Red Fort Complex served as the main residence of the Mughal emperors and is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/RedFortComplex/redfort.jpg"
+    },
+    {
+        "name": "Humayun's Tomb",
+        "location": "Delhi",
+        "category": "Cultural",
+        "description": "Humayun's Tomb is the tomb of the Mughal Emperor Humayun and is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/HumayunsTomb/Tomb_of_Humayun,_Delhi.jpg"
+    },
+    {
+        "name": "Great Living Chola Temples",
+        "location": "Tamil Nadu",
+        "category": "Cultural",
+        "description": "These temples represent the Chola architectural and artistic mastery and are a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/GreatLivingCholaTemples/temple.jpg"
+    },
+    {
+        "name": "Mahabalipuram Monuments",
+        "location": {
+            "city": "Mahabalipuram",
+            "state": "Tamil Nadu"
+        },
+        "category": "Cultural",
+        "description": "Famous for rock-cut temples, the Mahabalipuram Group of Monuments is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "/media/heritage/MahabalipuramMonuments/GroupofMonumentsatMahabalipuramTamilNadu.jpg"
+    },
+    {
+        "name": "Kaziranga National Park",
+        "location": "Assam",
+        "category": "Natural",
+        "description": "Kaziranga National Park is home to two-thirds of the world's one-horned rhinoceroses and is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/KazirangaNationalPark/KazirangaNationalPark.jpg"
+    },
+    {
+        "name": "Keoladeo National Park",
+        "location": {
+            "city": "Bharatpur",
+            "state": "Rajasthan"
+        },
+        "category": "Natural",
+        "description": "Keoladeo National Park is a famous avifauna sanctuary and is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/KeoladeoNationalPark/KeoladeoNationalParkRajasthan.jpg"
+    },
+    {
+        "name": "Manas Wildlife Sanctuary",
+        "location": "Assam",
+        "category": "Natural",
+        "description": "Manas Wildlife Sanctuary is a UNESCO World Heritage Site, a Project Tiger Reserve, and an Elephant Reserve. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/ManasWildlifeSanctuary/Herd_of_Elephant_in_Manas.jpg"
+    },
+    {
+        "name": "Sundarbans National Park",
+        "location": "West Bengal",
+        "category": "Natural",
+        "description": "A UNESCO World Heritage Site, Sundarbans National Park is known for its population of Bengal tigers and mangrove forests. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/SundarbansNationalPark/1280px-Tiger_Palm_in_Sundarban.jpg"
+    },
+    {
+        "name": "Western Ghats",
+        "location": "Western India",
+        "category": "Natural",
+        "description": "The Western Ghats are a UNESCO World Heritage Site and one of the world's eight 'hottest hotspots' of biological diversity. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "/media/heritage/WesternGhats/1280px-AnaimudiPeak_DSC_4834.jpg"
+    },
+    {
+        "name": "Nanda Devi and Valley of Flowers National Parks",
+        "location": "Uttarakhand",
+        "category": "Natural",
+        "description": "A UNESCO World Heritage Site, Nanda Devi and the Valley of Flowers National Parks are known for their scenic beauty and rare biodiversity. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "/media/heritage/NandaDeviandValleyofFlowersNationalParks/Valley_of_flowers.jpg"
+    },
+    {
+        "name": "Mountain Railways of India",
+        "location": "Tamil Nadu, West Bengal, Himachal Pradesh",
+        "category": "Cultural",
+        "description": "The Mountain Railways of India, including the Darjeeling and Nilgiri mountain railways, are UNESCO World Heritage Sites. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "/media/heritage/MountainRailwaysofIndia/Nilgiri_Mountain_Train.jpg"
+    },
+    {
+        "name": "Rani-ki-Vav (The Queen\u2019s Stepwell)",
+        "location": {
+            "city": "Patan",
+            "state": "Gujarat"
+        },
+        "category": "Cultural",
+        "description": "Rani-ki-Vav is a UNESCO World Heritage Site and one of the finest examples of stepwell architecture. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/RaniKiVavTheQueenuTwentntyNinetyssStepwell/pexelsphoto.jpeg"
+    },
+    {
+        "name": "Hill Forts of Rajasthan",
+        "location": "Rajasthan",
+        "category": "Cultural",
+        "description": "The Hill Forts of Rajasthan are a UNESCO World Heritage Site comprising six majestic forts in Rajasthan. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/HillFortsofRajasthan/amberfort.jpg"
+    },
+    {
+        "name": "The Architectural Work of Le Corbusier",
+        "location": "Chandigarh",
+        "category": "Cultural",
+        "description": "A UNESCO World Heritage Site, Le Corbusier's work in Chandigarh is considered a masterpiece of modernist architecture. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/TheArchitecturalWorkofLeCorbusier/ChandigarhRCsix.jpg"
+    },
+    {
+        "name": "Nalanda Mahavihara",
+        "location": "Bihar",
+        "category": "Cultural",
+        "description": "Nalanda Mahavihara, an ancient seat of learning, is a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "/media/heritage/NalandaMahavihara/NalandaBuddhistuniversity.jpg"
+    },
+    {
+        "name": "Buddhist Monuments at Sanchi",
+        "location": {
+            "city": "Sanchi",
+            "state": "Madhya Pradesh"
+        },
+        "category": "Cultural",
+        "description": "A UNESCO World Heritage Site, Sanchi is known for its stupas, monasteries, and sculptural gateways. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/BuddhistMonumentsatSanchi/front.jpg"
+    },
+    {
+        "name": "Rock Shelters of Bhimbetka",
+        "location": "Madhya Pradesh",
+        "category": "Cultural",
+        "description": "Bhimbetka is a UNESCO World Heritage Site, featuring ancient rock shelters and cave paintings. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/RockSheltersofBhimbetka/rocks.jpg"
+    },
+    {
+        "name": "Champaner-Pavagadh Archaeological Park",
+        "location": "Gujarat",
+        "category": "Cultural",
+        "description": "A UNESCO World Heritage Site, Champaner-Pavagadh is a historic city and a significant archaeological site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/ChampanerPavagadhArchaeologicalPark/Champaner.jpg"
+    },
+    {
+        "name": "Chhatrapati Shivaji Terminus",
+        "location": {
+            "city": "Mumbai",
+            "state": "Maharashtra"
+        },
+        "category": "Cultural",
+        "description": "Formerly known as Victoria Terminus, this is a UNESCO World Heritage Site and a fine example of Victorian Gothic Revival architecture. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/ChhatrapatiShivajiTerminus/CSMT.jpg"
+    },
+    {
+        "name": "Elephanta Caves",
+        "location": {
+            "city": "Mumbai",
+            "state": "Maharashtra"
+        },
+        "category": "Cultural",
+        "description": "The Elephanta Caves are rock-cut cave temples dedicated to the Hindu god Shiva and are a UNESCO World Heritage Site. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/ElephantaCaves/ElephantaCavess.jpg"
+    },
+    {
+        "name": "Jantar Mantar",
+        "location": {
+            "city": "Jaipur",
+            "state": "Rajasthan"
+        },
+        "category": "Cultural",
+        "description": "A UNESCO World Heritage Site, Jantar Mantar in Jaipur is a collection of astronomical instruments built in the 18th century. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/jantarmanterjaipur/JantarMantaratJaipur.jpg"
+    },
+    {
+        "name": "The Jantar Mantar of Delhi",
+        "location": "Delhi",
+        "category": "Cultural",
+        "description": "A 1724 astronomical observatory built by Maharaja Jai Singh II of Jaipur. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/JantarMantarofdelhi/JantarMantarNewDelhiMisraYantra.jpg"
+    },
+    {
+        "name": "Churches and Convents of Goa",
+        "location": "Goa",
+        "category": "Cultural",
+        "description": "A UNESCO World Heritage Site, this is a group of Catholic religious buildings from the Portuguese colonial period. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/ChurchesandConventsofGoa/churches.jpg"
+    },
+    {
+        "name": "Great Himalayan National Park",
+        "location": "Himachal Pradesh",
+        "category": "Natural",
+        "description": "A UNESCO World Heritage Site, the park is known for its biodiversity and scenic beauty in the Western Himalayas. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/GreatHimalayanNationalPark/Great_Himlayan_National_Park,_Himachal_Pradesh,_India.jpg"
+    },
+    {
+        "name": "Khangchendzonga National Park",
+        "location": "Sikkim",
+        "category": "Mixed",
+        "description": "The park is a UNESCO World Heritage Site, known for its spiritual significance and biodiversity. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/KhangchendzongaNationalPark/istockphoto.jpg"
+    },
+    {
+        "name": "Mountain Railways of Darjeeling",
+        "location": "West Bengal",
+        "category": "Cultural",
+        "description": "A part of the Mountain Railways of India, Darjeeling is famous for its scenic toy train and railway system. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/MountainRailwaysofDarjeeling/darjeeling.jpg"
+    },
+    {
+        "name": "Mahabodhi Temple Complex",
+        "location": {
+            "city": "Bodh Gaya",
+            "state": "Bihar"
+        },
+        "category": "Cultural",
+        "description": "A UNESCO World Heritage Site, this temple marks the location where Siddhartha Gautama attained enlightenment. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/MahabodhiTempleComplex/mahabodhitemple.jpg"
+    },
+    {
+        "name": "Victorian and Art Deco Ensembles of Mumbai",
+        "location": {
+            "city": "Mumbai",
+            "state": "Maharashtra"
+        },
+        "category": "Cultural",
+        "description": "A UNESCO World Heritage Site, the architectural ensembles of Mumbai reflect a blend of Victorian and Art Deco styles. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/VictorianandArtDecoEnsemblesofMumbai/victorianart.jpg"
+    },
+  
+    {
+        "name": "Jaipur City",
+        "location": {
+            "city": "Jaipur",
+            "state": "Rajasthan"
+        },
+        "category": "Cultural",
+        "description": "The entire city of Jaipur has been designated as a UNESCO World Heritage Site due to its urban planning and architecture. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/JaipurCity/jaipur.jpg"
+    },
+    {
+        "name": "Kakatiya Rudreshwara (Ramappa) Temple",
+        "location": "Telangana",
+        "category": "Cultural",
+        "description": "The Ramappa Temple is the first UNESCO World Heritage Site from Telangana, known for its exquisite craftsmanship. It is a key heritage site in India and attracts millions of tourists every year.",
+        "image_type": "media/heritage/KakatiyaRudreshwaraTemple/kakatiyarudreshwararamappatempleramappatemple.jpg"
+    }
+]

@@ -1,0 +1,128 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  backdrop-filter: blur(10px); /* Blur effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  width: 100%; /* Full width */
+  position: fixed; /* Fixed position */
+  top: 0; /* Aligns to top */
+  left: 0; /* Aligns to left */
+  z-index: 1000; /* Stays above other elements */
+}
+
+/* Logo */
+.navbar-logo {
+  flex: 1; /* Flex-grow for the logo */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Buttons Container */
+.navbar-buttons {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+  margin-right: 20px; /* Push buttons to the left */
+}
+
+/* Button Styling */
+.button {
+  background: transparent;
+  border: 2px solid #FFA500; /* Orange border */
+  border-radius: 500px; /* Rounded corners */
+  color: #FFA500; /* Orange text */
+  padding: 0.5rem 1.5rem; /* Padding */
+  font-size: 16px; /* Font size */
+  font-weight: 700; /* Bold text */
+  cursor: pointer; /* Pointer cursor */
+  display: flex;
+  align-items: center; /* Align items in the center */
+  gap: 10px; /* Space between icon and text */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+  color: white; /* Text color on hover */
+  background: #FFA500; /* Background color on hover */
+  border-color: #FFA500; /* Border color on hover */
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative; /* For absolute positioning of dropdown content */
+}
+
+.dropdown-content {
+  display: none; /* Initially hidden */
+  position: absolute; /* Positioned below the dropdown */
+  top: 100%; /* Aligns to the bottom */
+  left: 0; /* Aligns to left */
+  width: 150px; /* Adjust width as needed */
+  background: white; /* Background color */
+  border: 1px solid #cccccc; /* Border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Show on hover */
+}
+
+/* Dropdown Links */
+.dropdown-link {
+  display: block; /* Full width */
+  padding: 10px; /* Padding */
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Text color */
+  transition: background 0.3s; /* Smooth transition */
+}
+
+.dropdown-link:hover {
+  background: #f0f0f0; /* Background on hover */
+}
+
+/* Additional User Info Styles */
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+/* src/components/Navbar.css */
+
+/* Common styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Light theme styles */
+.navbar.light {
+  background-color: white; /* Light background */
+  color: black; /* Light text color */
+}
+
+/* Dark theme styles */
+.navbar.dark {
+  background-color: #333; /* Dark background */
+  color: white; /* Dark text color */
+}
+
+/* Other existing styles remain unchanged */

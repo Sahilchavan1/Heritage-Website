@@ -1,0 +1,122 @@
+// src/i18n.js
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+
+const resources = {
+  en: {
+    translation: {
+      welcome: "Welcome",
+      logIn: "Log In",
+      logOut: "Log Out",
+      language: "Language",
+      user: "User",
+      // Add more translations as needed
+      exploreNow: "EXPLORE NOW",
+      search: "Search...",
+      virtualTour: "Virtual Tour of Indian Heritage",
+      heritageSite: "Heritage Site",
+      spotlightsTitle: "Cultural Spotlights",
+      mapTitle: "Interactive Cultural Map",
+      mapPlaceholder: "Map will be displayed here",
+      viewMore: "View More +",
+      viewLess: "View Less -",
+      like: "Like",
+      wishlist: "Wishlist",
+      "360View": "360 View",
+      categories: "Categories",
+      vrTour: "VR Tour",
+      exploreVirtualWorlds: "Explore virtual worlds",
+      ebooks: "Ebooks",
+      openWorldKnowledge: "Open the world of knowledge",
+      images: "Images",
+      oneLookMoments: "One look at moments",
+      videos: "Videos",
+      capturedMoments: "Captured moments",
+      storyTalks: "Story Talks",
+      unsungStories: "Unsung stories",
+      quizzes: "Quizzes",
+      testKnowledge: "Test your knowledge",
+      artsCrafts: "Arts & Crafts",
+      exploreArt: "Explore the art",
+      heritageSites: "Heritage Sites",
+      aboutDigitalHeritage: "About Digital Heritage",
+      digitalHeritageDescription: "Digital Heritage is dedicated to preserving and sharing the rich cultural heritage of the world through modern digital technology.",
+      contactUs: "Contact Us",
+      allRightsReserved: "All Rights Reserved",
+      navratriFestival: "Navratri Festival: 3 OCT",
+      navratriDescription: "Navratri is a vibrant Hindu festival celebrating the triumph of good over evil, dedicated to the worship of Goddess Durga in her nine forms.",
+      dasaraFestival: "Dasara Festival: 12 OCT",
+      dasaraDescription: "Festival of Victory in reference to the celebration of Lord Rama's victory over the demon king Ravana, symbolizing the triumph of good over evil.",
+      diwaliFestival: "Diwali Festival: 1 NOV",
+      diwaliDescription: "Diwali, the Festival of Lights, celebrates the victory of good over evil. It is marked by lighting lamps, fireworks, and sharing sweets.",
+      cultural: "Cultural",
+      natural: "Natural",
+      mixed: "Mixed",
+    },
+  },
+  hi: {
+    translation: {
+      welcome: "स्वागत है",
+      logIn: "लॉग इन करें",
+      logOut: "लॉग आउट करें",
+      language: "भाषा",
+      user: "उपयोगकर्ता",
+      exploreNow: "अब खोजें",
+      search: "खोजें...",
+      virtualTour: "भारतीय विरासत का आभासी दौरा",
+      heritageSite: "विरासत स्थल",
+      spotlightsTitle: "सांस्कृतिक प्रकाश",
+      mapTitle: "इंटरैक्टिव सांस्कृतिक मानचित्र",
+      mapPlaceholder: "मानचित्र यहां प्रदर्शित किया जाएगा",
+      viewMore: "और देखें +",
+      viewLess: "कम देखें -",
+      like: "पसंद",
+      wishlist: "इच्छा-सूची",
+      "360View": "360 दृश्य",
+      categories: "श्रेणियाँ",
+      vrTour: "वीआर टूर",
+      exploreVirtualWorlds: "आभासी दुनिया की खोज करें",
+      ebooks: "ई-पुस्तकें",
+      openWorldKnowledge: "ज्ञान की दुनिया खोलें",
+      images: "चित्र",
+      oneLookMoments: "पलों की एक झलक",
+      videos: "वीडियो",
+      capturedMoments: "कैद किए गए पल",
+      storyTalks: "कहानी वार्ता",
+      unsungStories: "अनसुनी कहानियाँ",
+      quizzes: "प्रश्नोत्तरी",
+      testKnowledge: "अपने ज्ञान का परीक्षण करें",
+      artsCrafts: "कला और शिल्प",
+      exploreArt: "कला की खोज करें",
+      heritageSites: "विरासत स्थल",
+      aboutDigitalHeritage: "डिजिटल हेरिटेज के बारे में",
+      digitalHeritageDescription: "डिजिटल हेरिटेज आधुनिक डिजिटल तकनीक के माध्यम से दुनिया की समृद्ध सांस्कृतिक विरासत को संरक्षित करने और साझा करने के लिए समर्पित है।",
+      contactUs: "संपर्क करें",
+      allRightsReserved: "सर्वाधिकार सुरक्षित",
+      navratriFestival: "नवरात्रि उत्सव: 3 अक्टूबर",
+      navratriDescription: "नवरात्रि एक जीवंत हिंदू त्योहार है जो अच्छाई की बुराई पर विजय का जश्न मनाता है, जो देवी दुर्गा के नौ रूपों की पूजा को समर्पित है।",
+      dasaraFestival: "दशहरा उत्सव: 12 अक्टूबर",
+      dasaraDescription: "भगवान राम की रावण पर विजय के उपलक्ष्य में विजय का त्योहार, जो अच्छाई की बुराई पर विजय का प्रतीक है।",
+      diwaliFestival: "दिवाली उत्सव: 1 नवंबर",
+      diwaliDescription: "दिवाली, रोशनी का त्योहार, अच्छाई की बुराई पर विजय का जश्न मनाता है। इसे दीप जलाकर, आतिशबाजी और मिठाइयाँ बाँटकर मनाया जाता है।",
+      cultural: "सांस्कृतिक",
+      natural: "प्राकृतिक",
+      mixed: "मिश्रित",
+    },
+  },
+  // Add more languages here
+};
+
+i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources,
+    fallbackLng: 'en',
+    interpolation: {
+      escapeValue: false, // React already does escaping
+    },
+  });
+
+export default i18n;
